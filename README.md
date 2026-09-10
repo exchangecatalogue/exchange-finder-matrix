@@ -1,4 +1,4 @@
-# 📊 Exchange Finder Matrix & Execution Benchmarking Model
+# Exchange Finder Matrix & Execution Benchmarking Model
 
 An open-source data schema and matching logic blueprint to evaluate crypto exchanges across execution speed, maker/taker fee tiers, and jurisdictional compliance.
 
@@ -6,13 +6,13 @@ Powered by the research engine at [ExchangeCatalogue](https://exchangecatalogue.
 
 ---
 
-## 🚀 Live Web Implementation
+## Live Web Implementation
 To test the interactive production implementation with live exchange data feeds, access the web selector directly:
 * **[Launch the Interactive Exchange Finder](https://exchangecatalogue.com/tools/exchange-finder/)**
 
 ---
 
-## 🧩 Matrix Evaluation Criteria
+## Matrix Evaluation Criteria
 The matrix scores trading venues across four operational vectors:
 
 | Scoring Vector | Key Metrics Evaluated | Weighting |
@@ -24,7 +24,7 @@ The matrix scores trading venues across four operational vectors:
 
 ---
 
-## 💻 Sample Evaluation Snippet (Python)
+## Sample Evaluation Snippet (Python)
 ```python
 def score_exchange_viability(maker_fee, api_ping_ms, depth_score):
     """
